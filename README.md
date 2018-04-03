@@ -1,2 +1,2 @@
 # jsEnvironment
-lesson for setting up javascript environment
+lesson for setting up javascript environment with npm
