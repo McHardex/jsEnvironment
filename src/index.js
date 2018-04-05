@@ -1,6 +1,5 @@
 import './index.css';
 
-
 let input = document.getElementById('enterText');
 let submitInput = document.getElementById('submitInput');
 let result = document.getElementById('result');
@@ -11,6 +10,8 @@ let inputsArray = [];
 function submitForm() {
     inputsArray.push(input.value);
 }
+
+/* eslint-disable no-useless-escape */
 
 function reverseString(str) {
     // reversing the string and removing white spaces
@@ -30,8 +31,6 @@ function displayInput() {
     if (mytext.toLowerCase() === reverseString(input.value)) {
 
         result.textContent = 'The text you entered is a Palindrome!';
-    } else if (mytext === '') {
-        button = true;
     } else {
         result.textContent = 'The text you entered is not a Palindrome, try another text!!!';
 
@@ -46,6 +45,7 @@ submitInput.addEventListener('click', function(event) {
     submitForm();
     displayInput();
 });
+
 
 function showme() {
     lastfive.textContent = inputsArray.slice(-5).join(', ');
