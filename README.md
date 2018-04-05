@@ -12,5 +12,6 @@ Test and continous integration using:
   'chai as the assertion library,
   'JSdom' as the helper library and 
   'node' as the location to run test files.
-Continuos Integration with Travis-ci (travis-ci.org)
+Continuos Integration with Travis-ci for mac and linux(travis-ci.org)
+Continuos Integration with appveyor for windows machine(ci.appveyor.com)
 
