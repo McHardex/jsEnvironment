@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 18401225,
+      "firstName": "Wilma",
+      "lastName": "Harvey",
+      "email": "Lily_Lueilwitz@hotmail.com"
+    },
+    {
+      "id": 60934908,
+      "firstName": "Kennedi",
+      "lastName": "Romaguera",
+      "email": "Emanuel.Robel57@hotmail.com"
+    },
+    {
+      "id": 84025114,
+      "firstName": "Demarco",
+      "lastName": "Rutherford",
+      "email": "Hermann_Nolan88@hotmail.com"
+    },
+    {
+      "id": 34120461,
+      "firstName": "Zachary",
+      "lastName": "Pagac",
+      "email": "Maurice_Mraz@yahoo.com"
+    }
+  ]
+}
